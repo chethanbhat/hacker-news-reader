@@ -1,0 +1,57 @@
+body {
+  height: 100%;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.comment-link a {
+  color: #fff;
+}
+.comment-link a:hover {
+  color: #fff;
+}
+
+.inner-list-group .list-group-item {
+  box-shadow: -1px 1px #aaa;
+}
+
+.outer-list-group > .list-group-item {
+  border: 1px solid #999;
+}
+
+.story-index {
+  width: 50px;
+}
+
+.pagination button {
+  background-color: #000;
+  border-color: #fff;
+  color: #fff;
+}
+
+.pagination > * {
+  box-shadow: none;
+  outline: none;
+}
+
+.pagination .active button {
+  background-color: #fff !important;
+  color: #000 !important;
+  outline: none;
+  box-shadow: none;
+}
+
+.footer {
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .story-index {
+    width: 150px;
+  }
+  .story-index p {
+    margin-left: 5%;
+  }
+}
